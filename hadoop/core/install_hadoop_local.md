@@ -77,19 +77,30 @@ tar zxvf HDP-2.3.0.0-centos6-rpm.tar.gz
 tar zxvf HDP-UTILS-1.1.0.20-centos6.tar.gz
 ##（十二）创建基于html的创建源
 createrepo hdp
-##（十三）
+##（十三）下载Ambari的yum仓库资源描述文件
+cd /etc/yum.repos.d/
 
-##（十四）
+wget http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.1.1/ambari.repo
+##（十四）开启yum的在线安装缓存资源备份
+vim /etc/yum.conf 
 
+　　修改成：keepcache=1
 ##（十五）
 
 ##（十六）
 
-##（十七）
-
+##（十七）ssh免密登录key位置
+/root/.ssh/id_rsa
+baseurl=http://192.168.33.61/hdp/amberi-2.1.1/centos6/
+gpgkey=http://192.168.33.61/hdp/amberi-2.1.1/centos6/
 ##（十八）
 
 ##（十九）
 
 ##（二十）
+#baseurl=http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.1.1
+baseurl=http://mini1/ambari/centos6/2.x/updates/2.1.1
+gpgcheck=1
+#gpgkey=http://public-repo-1.hortonworks.com/ambari/centos6/RPM-GPG-KEY/RPM-GPG-KEY-Jenkins
+gpgkey=http://mini1/ambari/centos6/RPM-GPG-KEY/RPM-GPG-KEY-Jenkins
 
