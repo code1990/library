@@ -19,7 +19,7 @@ Git官方下载地址：[http://git-scm.com/download/](http://git-scm.com/downlo
 
 ## （四）Git克隆与更新代码
 
-![](https://i.imgur.com/ySyexfk.png)
+ ![](https://i.imgur.com/ySyexfk.png)
 
 ![](https://i.imgur.com/GpweTal.png)
 
@@ -28,3 +28,10 @@ Git官方下载地址：[http://git-scm.com/download/](http://git-scm.com/downlo
 ![](https://i.imgur.com/RsaCCoc.png)
 
 ![](https://i.imgur.com/lHBrWET.png)
+
+
+##（五）git与github 开发配置
+
+![](https://i.imgur.com/a9RjXD5.png)
+
+![](https://i.imgur.com/gVmpd4U.png)

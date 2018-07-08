@@ -11,6 +11,12 @@ JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
     JUnit Jupiter 是JUnit5扩展的新的编程模型和扩展模型，用来编写测试用例。
 
     JUnit Vintage 提供了一个在平台上运行 JUnit3 和 JUnit4 的 TestEngine。
+**重点API**
+
+* @DisplayName 注释测试方法 描述测试方法 告诉测试人员方法的用途
+* @BeforeEach 每条用例开始时执行
+* @AfterEach 每条用例结束时执行
+* @Disabled 不执行 忽略
 
 创建maven项目，在pom.xml添加如下的配置
 
