@@ -96,9 +96,11 @@ Initial WSDL：http://ws.webxml.com.cn/WebServices/MobileCodeWS.asmx?wsdl 为接
 ##（六）soapUI创建REST项目
 右键 Projects –> New REST Project
 ![](https://i.imgur.com/brloqQe.png)
+
 以本地查询发布会接口为例。
 
 URI：http://www.kuaidi100.com 为接口URI。
+
 ![](https://i.imgur.com/CRLD4cm.png)
 
 点击 OK 按钮，创建项目完成。

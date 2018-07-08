@@ -107,7 +107,9 @@ Maven ： 下载地址 http://maven.apache.org/download.cgi
 	  <name>myapp</name>
 	  <url>http://maven.apache.org</url>
 	
+	 <!--denpencies指定整个项目的jar包依赖关系-->
 	  <dependencies>
+		<!--dependency单独指定和声明某一个jar包信息-->
 	    <dependency>
 	      <groupId>junit</groupId>
 	      <artifactId>junit</artifactId>
