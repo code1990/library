@@ -26,7 +26,7 @@
 		public static void main(String[] args) {
 			//打印并换行
 			System.out.println("Hello World!");
-		}
+		} 
 	}
 
 ##（三）Java的强类型定义
