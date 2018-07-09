@@ -23,9 +23,26 @@ July August September October November December
 ## 7.2 day05 content:RPC NIO
 ## 7.3 day06 content:hadoop Mapreduce
 ## 7.4 day07 hdfs
-## 7.5 day08 mapreduce
-## 7.6 day09 wordcount
+## 7.5 day08 mapreduce wordcount
+## 7.6 day09 flowCombiner
+1/mr的combiner
+
+2/mr的排序
+
+3/mr的shuffle
+
+4/mr与yarn
+
+5/mr运行模式
+
+6/mr实现join
+
+7/mr全局图
+
+8/mr的压缩
 ## 7.7 day10 
+day10 离线计算 end
+---------------------------------
 ## 7.8 day11 
 ---------------------------------------
 ## second week
